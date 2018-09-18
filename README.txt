@@ -1,1 +1,1 @@
-This is Tile Traveler assignment for Python in Programming in RU.
+Tile Traveler assignment.
