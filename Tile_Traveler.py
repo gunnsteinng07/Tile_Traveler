@@ -43,7 +43,6 @@ while final_tile:
             y += 1
         else:
             print("Not a valid direction!")
-        print(x,",",y)
 
     elif x == 1 and y == 2:
         print("You can travel: (N)orth or (E)ast or (S)outh.")
@@ -60,7 +59,6 @@ while final_tile:
             y -= 1
         else:
             print("Not a valid direction!")
-        print(x,",",y)
         
     elif x == 1 and y == 3:
         print("You can travel: (E)ast or (S)outh.")
@@ -74,7 +72,6 @@ while final_tile:
             y -= 1
         else:
             print("Not a valid direction!")
-        print(x,",",y)
 
     elif x == 2 and y == 1:
         print("You can travel: (N)orth.")
@@ -85,7 +82,6 @@ while final_tile:
             y += 1
         else:
             print("Not a valid direction!")
-        print(x,",",y) 
 
     elif x == 2 and y == 2:
         print("You can travel: (W)east or (S)outh.")
@@ -99,7 +95,6 @@ while final_tile:
             y -= 1
         else:
             print("Not a valid direction!")
-        print(x,",",y)
 
     elif x == 2 and y == 3:
         print("You can travel: (E)ast or (W)east.")
@@ -113,7 +108,6 @@ while final_tile:
             y += 0
         else:
             print("Not a valid direction!")
-        print(x,",",y)
 
     elif x == 3 and y == 3:
         print("You can travel: (W)est or (S)outh.")
@@ -127,7 +121,6 @@ while final_tile:
             y -= 1
         else:
             print("Not a valid direction!")
-        print(x,",",y)
     
     elif x == 3 and y == 2:
         print("You can travel: (N)orth or (S)outh.")
