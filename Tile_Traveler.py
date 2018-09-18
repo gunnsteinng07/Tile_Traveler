@@ -44,3 +44,102 @@ while final_tile:
         else:
             print("Not a valid direction!")
         print(x,",",y)
+
+    elif x == 1 and y == 2:
+        print("You can travel: (N)orth.")
+        movement = input("Direction: ")
+        movement = movement.lower()
+        if movement == "n":
+            x += 0
+            y += 1
+        elif movement == "e":
+            x += 1
+            y += 0
+        elif movement == "s":
+            x += 0
+            y -= 1
+        else:
+            print("Not a valid direction!")
+        print(x,",",y)
+        
+    elif x == 1 and y == 3:
+        print("You can travel: (N)orth.")
+        movement = input("Direction: ")
+        movement = movement.lower()
+        if movement == "e":
+            x += 1
+            y += 0
+        elif movement == "s":
+            x += 0
+            y -= 1
+        else:
+            print("Not a valid direction!")
+        print(x,",",y)
+
+    elif x == 2 and y == 1:
+        print("You can travel: (N)orth.")
+        movement = input("Direction: ")
+        movement = movement.lower()
+        if movement == "n":
+            x += 0
+            y += 1
+        else:
+            print("Not a valid direction!")
+        print(x,",",y) 
+
+    elif x == 2 and y == 2:
+        print("You can travel: (N)orth.")
+        movement = input("Direction: ")
+        movement = movement.lower()
+        if movement == "w":
+            x -= 1
+            y += 0
+        elif movement == "s":
+            x += 0
+            y -= 1
+        else:
+            print("Not a valid direction!")
+        print(x,",",y)
+
+    elif x == 2 and y == 3:
+        print("You can travel: (N)orth.")
+        movement = input("Direction: ")
+        movement = movement.lower()
+        if movement == "w":
+            x -= 1
+            y += 0
+        elif movement == "e":
+            x += 1
+            y += 0
+        else:
+            print("Not a valid direction!")
+        print(x,",",y)
+
+    elif x == 3 and y == 3:
+        print("You can travel: (N)orth.")
+        movement = input("Direction: ")
+        movement = movement.lower()
+        if movement == "w":
+            x -= 1
+            y += 0
+        elif movement == "s":
+            x += 0
+            y -= 1
+        else:
+            print("Not a valid direction!")
+        print(x,",",y)
+    
+    elif x == 3 and y == 2:
+        print("You can travel: (N)orth.")
+        movement = input("Direction: ")
+        movement = movement.lower()
+        if movement == "n":
+            x += 0
+            y += 1
+        elif movement == "s":
+            x += 0
+            y -= 1
+        else:
+            print("Not a valid direction!")
+        print(x,",",y)
+
