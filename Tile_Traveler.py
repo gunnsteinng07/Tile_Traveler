@@ -24,9 +24,15 @@ Max = 3
 Min = 1
 x = 1
 y = 1
+final_tile = False
+
+if x == Max and y == Min:
+    final_tile = False
+else:
+    final_tile = True
 
 # While loopan sem ætti að nota
-while x != Max and y != Min:
+while final_tile:
 
     if x == 1 and y == 1:
         print("You can travel: (N)orth.")
