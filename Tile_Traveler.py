@@ -46,7 +46,7 @@ while final_tile:
         print(x,",",y)
 
     elif x == 1 and y == 2:
-        print("You can travel: (N)orth.")
+        print("You can travel: (N)orth or (E)ast or (S)outh.")
         movement = input("Direction: ")
         movement = movement.lower()
         if movement == "n":
@@ -63,7 +63,7 @@ while final_tile:
         print(x,",",y)
         
     elif x == 1 and y == 3:
-        print("You can travel: (N)orth.")
+        print("You can travel: (E)ast or (S)outh.")
         movement = input("Direction: ")
         movement = movement.lower()
         if movement == "e":
@@ -88,7 +88,7 @@ while final_tile:
         print(x,",",y) 
 
     elif x == 2 and y == 2:
-        print("You can travel: (N)orth.")
+        print("You can travel: (W)east or (S)outh.")
         movement = input("Direction: ")
         movement = movement.lower()
         if movement == "w":
@@ -102,7 +102,7 @@ while final_tile:
         print(x,",",y)
 
     elif x == 2 and y == 3:
-        print("You can travel: (N)orth.")
+        print("You can travel: (E)ast or (W)east.")
         movement = input("Direction: ")
         movement = movement.lower()
         if movement == "w":
@@ -116,7 +116,7 @@ while final_tile:
         print(x,",",y)
 
     elif x == 3 and y == 3:
-        print("You can travel: (N)orth.")
+        print("You can travel: (W)est or (S)outh.")
         movement = input("Direction: ")
         movement = movement.lower()
         if movement == "w":
@@ -130,7 +130,7 @@ while final_tile:
         print(x,",",y)
     
     elif x == 3 and y == 2:
-        print("You can travel: (N)orth.")
+        print("You can travel: (N)orth or (S)outh.")
         movement = input("Direction: ")
         movement = movement.lower()
         if movement == "n":
