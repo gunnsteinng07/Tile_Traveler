@@ -19,6 +19,9 @@
     # 2,3 er bara hægt að fara (A)ustur og (V)estur
     # 3,2 er bara hægt að fara (N)orður og (S)uður
 
+# Github repo:
+# https://github.com/gunnsteinng07/Tile_Traveler
+
 
 Max = 3
 Min = 1
